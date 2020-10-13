@@ -14,10 +14,10 @@ function numberMagic() {
     paragraph.innerHTML = classList.toggle("demasiado alto");
   }
   else if (input.value < numberRandom) {
-    paragraph.innerHTML = "demasiado bajo";
+    paragraph.innerHTML = classList.toggle "demasiado bajo";
   }
   else if (input.value === numberRandom) {
-    paragraph.innerHTML = "¡¡¡Has ganado campeona";
+    paragraph.innerHTML = classList.toggle "¡¡¡Has ganado campeona";
   }
 }
 
