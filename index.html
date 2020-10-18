@@ -7,12 +7,24 @@
     <title>Adivina el número</title>
   </head>
   <body>
+    <form action="">
     <h1 class="title">Adivina el número</h1>
     <h2 class="subtitle">Introduce aquí tu número:</h2>
-    <input class="js-input" type="text" >
-    <input type="button" class="btn" value="Prueba">
+
+    <input class="js-input" 
+     type="number"
+     placeholder="Ejemplo:45"
+     title="Escribe un número" >
+
+    <input class="btn"
+    type="button"  
+    value="Prueba"
+    title="Prueba">
+
+  </form>
     <p class="text1">Pista: Escribe el número y dale a prueba</p>
-    <p class="text2"></p>
+    <p class="text2">Número de intentos: 0</p>
+  
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
